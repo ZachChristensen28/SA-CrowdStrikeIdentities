@@ -1,4 +1,7 @@
-[![SA-CrowdStrikeIdentities](./docs/assets/sa-crowdstrike-id-logo-lighttext.svg)](https://splunk-sa-crowdstrike-id.ztsplunker.com)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/assets/sa-crowdstrike-id-logo-darktext.svg">
+  <a href="https://splunk-sa-crowdstrike-id.ztsplunker.com" target="_blank"><img alt="SA-CrowdStrikeIdentities" src="./docs/assets/sa-crowdstrike-id-logo-lighttext.svg"></a>
+</picture>
 
 ![GitHub](https://img.shields.io/github/license/zachchristensen28/SA-CrowdStrikeIdentities)
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdStrikeIdentities/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike-id.ztsplunker.com/)
