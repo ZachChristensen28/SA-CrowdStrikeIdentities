@@ -8,6 +8,7 @@ on:
       - "docs/**"
       - "mkdocs.yml"
       - "overrides/**"
+  workflow_dispatch:
 
 jobs:
   call-docs-workflow:

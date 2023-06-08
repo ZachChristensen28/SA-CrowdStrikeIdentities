@@ -3,9 +3,7 @@ name: Increment Build caller
 on:
   push:
     branches:
-      - devel
-      - development
-      - develop
+      - "dev*"
     paths:
       - "src/**"
       - "!app.conf"
