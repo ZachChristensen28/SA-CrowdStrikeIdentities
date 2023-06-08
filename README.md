@@ -1,3 +1,5 @@
+[![SA-CrowdStrikeIdentities](./docs/assets/sa-crowdstrike-id-logo-lighttext.svg)](https://splunk-sa-crowdstrike-id.ztsplunker.com)
+
 ![GitHub](https://img.shields.io/github/license/zachchristensen28/SA-CrowdStrikeIdentities)
 [![Docs](https://github.com/ZachChristensen28/SA-CrowdStrikeIdentities/actions/workflows/docs.yml/badge.svg)](https://splunk-sa-crowdstrike-id.ztsplunker.com/)
 ![Appinspect](https://github.com/ZachChristensen28/SA-CrowdStrikeIdentities/actions/workflows/appinspect.yml/badge.svg)
