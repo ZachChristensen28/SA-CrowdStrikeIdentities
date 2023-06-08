@@ -23,7 +23,7 @@ body:
         [the documentation](https://splunk-sa-crowdstrike-identity.ztsplunker.com/) that
         are relevant to the bug in order to show that you have consulted and
         thoroughly read it. Additionally, list links to possibly related open
-        and closed [issues](https://github.com/ZachChristensen28/SA-CrowdStrikeIdentities/issues).
+        and closed [issues](https://github.com/ZachChristensen28/SA-CrowdstrikeIdentities/issues).
       value: |-
         - [Example Issue](https://splunk-sa-crowdstrike-identity.ztsplunker.com/)
         -
@@ -33,9 +33,9 @@ body:
   - type: input
     id: sa-version
     attributes:
-      label: SA-CrowdStrikeIdentities Version
+      label: SA-CrowdstrikeIdentities Version
       description: >-
-        Which version of this app (SA-CrowdStrikeIdentities) are you using?
+        Which version of this app (SA-CrowdstrikeIdentities) are you using?
       placeholder: |-
         1.0.0
     validations:
