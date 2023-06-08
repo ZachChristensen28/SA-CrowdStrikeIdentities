@@ -1,0 +1,13 @@
+name: Increment Build caller
+
+on:
+  push:
+    branches:
+      - "dev*"
+    paths:
+      - "src/**"
+      - "!app.conf"
+
+jobs:
+  build-increase:
+    uses: ZachChristensen28/splunk-github-wfa/.github/workflows/increment-build-number.yml@main
