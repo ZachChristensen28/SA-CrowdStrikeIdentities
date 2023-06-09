@@ -1,6 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./docs/assets/sa-crowdstrike-id-logo-darktext.svg">
-  <a href="https://splunk-sa-crowdstrike-id.ztsplunker.com" target="_blank"><img alt="SA-CrowdStrikeIdentities" src="./docs/assets/sa-crowdstrike-id-logo-lighttext.svg"></a>
+  <source media="(prefers-color-scheme: dark)" srcset="./docs/assets/sa-crowdstrike-id-logo-lighttext.png">
+  <source media="(prefers-color-scheme: light)" srcset="./docs/assets/sa-crowdstrike-id-logo-darktext.png">
+  <img alt="SA-CrowdStrikeIdentities" src="./docs/assets/sa-crowdstrike-id-logo-darktext.svg">
 </picture>
 
 ![GitHub](https://img.shields.io/github/license/zachchristensen28/SA-CrowdStrikeIdentities)
