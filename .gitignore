@@ -2,7 +2,6 @@
 **/local
 local.meta
 __pycache__/
-.vscode
 venv
 .idea
 Pipfile**

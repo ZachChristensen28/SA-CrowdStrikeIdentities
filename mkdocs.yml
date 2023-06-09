@@ -1,0 +1,145 @@
+site_name: SA-CrowdStrikeIdentities
+edit_uri: edit/main/docs/
+repo_url: https://github.com/ZachChristensen28/SA-CrowdStrikeIdentities
+repo_name: ZachChristensen28/SA-CrowdStrikeIdentities
+site_description: >-
+  Welcome to the Home of the SA-CrowdStrikeIdentities Add-on for Splunk Enterprise Security documentation. The SA-CrowdStrikeIdentities add-on allows Splunk Enterprise Security admins to use CrowdStrike Identity data with the Identity Database.
+
+plugins:
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - ignore-image
+      auto_caption: true
+      caption_position: bottom
+  - search
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - toc:
+      permalink: true
+  - attr_list
+  - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - def_list
+  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+theme:
+  name: material
+  custom_dir: overrides
+  #   logo:
+  #   favicon:
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/sa-crowdstrike-id-logo-notext.svg
+  favicon: assets/favicon-32x32.png
+  features:
+    # - announce.dismiss
+    # - header.autohide
+    - navigation.indexes
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    # - toc.integrate
+    - navigation.tracking
+    - content.code.annotate
+    - content.code.copy
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/zachthesplunker/
+    - icon: fontawesome/brands/github
+      link: https://github.com/ZachChristensen28
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@ZachTheSplunker
+
+copyright: Copyright &copy; 2023 ZachTheSplunker
+
+nav:
+  - Home: index.md
+  - Quick Start:
+      - Prerequisites: quickstart/prerequisites.md
+      - Install: quickstart/install.md
+      - Quickstart: quickstart/quickstart.md
+  - Configure:
+      - configure/index.md
+      - Update Priority: configure/priority.md
+      - Update Category: configure/category.md
+      - Update Schedule: configure/schedule.md
+      - Best Practice:
+          - Clone Saved Search: configure/best-practice/clone-search.md
+  - Reference:
+      - All Configurations: reference/all-configurations.md
+      - Identity Database mapping: reference/identity-mapping.md
+      - Field reference:
+          - Category: reference/category.md
+  - Troubleshooting:
+      - troubleshooting/index.md
+  - Release Notes:
+      - Release Notes: releases/index.md
